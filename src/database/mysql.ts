@@ -10,7 +10,7 @@ const config = {
     host: process.env.DB_HOST || 'localhost',
     user: process.env.DB_USER || 'root',
     database: process.env.DB_DATABASE || 'inventario_servicio',
-    password: process.env.DB_PASSWORD || 'LuiS110602CAaL',
+    password: process.env.DB_PASSWORD || '', //password here
     waitForConnections: true,
     connectionLimit: 10,
 };
