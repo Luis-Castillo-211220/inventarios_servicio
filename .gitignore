@@ -1,0 +1,6 @@
+# Ignorar archivos JavaScript compilados
+*.js
+# Si tienes un directorio específico donde se compilan, por ejemplo 'dist', puedes ignorar todo el directorio
+dist/
+
+node_modules/
